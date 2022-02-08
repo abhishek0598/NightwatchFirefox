@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="dragAndDrop"
+    errors="0" failures="0" hostname="" id="" package="dragAndDrop" skipped="0"
+    tests="1" time="12.60" timestamp="">
+  
+    <testcase name="Test script for Drag and Drop functionality as it is not supported by selenium webdrivers" classname="dragAndDrop" time="12.60" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

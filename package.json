@@ -1,0 +1,27 @@
+{
+  "name": "nightwatchpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch.CMD",
+    "test": "nightwatch",
+    "test:cucumber": "cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty",
+    "e2e-test": "mkdirp report && cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty --format json:report/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^97.0.3",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.5.0",
+    "cucumber-pretty": "^6.0.1",
+    "geckodriver": "^3.0.1",
+    "html-dnd": "^1.2.1",
+    "mkdirp": "^1.0.4",
+    "nightwatch": "^1.7.13",
+    "nightwatch-api": "^3.0.2"
+  }
+}

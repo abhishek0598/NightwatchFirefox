@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="Test1"
+    errors="0" failures="0" hostname="" id="" package="Test1" skipped="0"
+    tests="6" time="95.92" timestamp="">
+  
+    <testcase name="1st test script for nightwatch" classname="Test1" time="14.76" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="2nd Test script for nightwatch" classname="Test1" time="27.80" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="#3rd Test script for nightwatch" classname="Test1" time="8.088" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="#4th Test script for Drag and Drop functionality as it is not supported by selenium webdrivers" classname="Test1" time="13.24" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="#5th test script for getting the element using async await" classname="Test1" time="28.75" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="#6th test script for using elements() API for getting " classname="Test1" time="3.279" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
