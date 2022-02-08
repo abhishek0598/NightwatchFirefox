@@ -25,7 +25,7 @@ module.exports = {
             .click("@CheckOutPopup")
             .pause(3000)
             .click("@checkOutbutton")
-            .pause(2000)
+            .pause(3000)
 
 
 
